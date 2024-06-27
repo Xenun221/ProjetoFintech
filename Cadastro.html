@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/Css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Image -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="bg-style">
+    <header>
+        <!-- Menu -->
+        <nav class="intro-nav navbar navbar-expand-lg " data-bs-theme="dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">TsInvest</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav nav-underline nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cadastro.html" target="_blank">Cadastrar-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Login.html" target="_blank">Login</a>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container my-5">
+            <form id="dados" name="dados" method="get" action="" class="p-3 borda ">
+                <h1 class="text-center">Abra sua conta </h1>
+                <p>Com apenas algumas informações</p>
+                <div class="my-3">
+                    <label for="Email" class="form-label">Email* </label>
+                    <input type="email" name="Email" id="Email"  required placeholder="TsInvest@gmail.com" class="form-control">
+                </div>
+                <!-- Senha -->
+                 <div class="my-3">
+                    <label for="senha" class="form-label">Senha* </label>
+                    <input type="password" name="senha" id="senha" class="form-control" required placeholder="Digite sua senha">
+                    <div id="passwordHelpBlock" class="form-text">
+                        Sua senha deve ter de 8 a 20 usando um caractere especial como (!@#$%¨&*)
+                 </div>
+
+                 <!-- CPF -->
+                  <div class="my-3">
+                        <label for="CPF" class="form-label">CPF* </label>
+                        <input type="text" name="CPF" id="CPF" required class="form-control" placeholder="Digite seu CPF">
+                  </div>
+
+                  <!-- Data Nascimento -->
+                   <div class="my-3">
+                        <label for="DataNasci" class="form-label">Data de Nascimento* </label>
+                        <input type="date" name="DataNasci" id="DataNasci" required class="form-control">
+                   </div>
+
+                   <!-- Cel -->
+                    <div class="my-3">
+                        <label for="Cel" class="form-label">Telefone* </label>
+                        <input type="tel" name="Cel" id="Cel" required placeholder="(xx)(xxxx-xxxx)" class="form-control">
+                    </div>
+
+                    <!-- Botao -->
+                     <div class="text-center d-grid gap-2 col-6 mx-auto">
+                        <button type="button" class="btn btn-outline-secondary botao">Cadastrar-se</button>
+                     </div>
+                    
+            </form>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
