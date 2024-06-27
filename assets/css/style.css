@@ -1,0 +1,97 @@
+:root{
+    --bg-color: #aaa8bc;
+    --font-color: #fdfcce;
+    --bd-color: #918fa5;
+    --wd-image: width: 500px;
+    --bk-color: #f4f2ff;
+    --card-color: #dbd9e9;
+    --ft-style: font-family: "Poppins", sans-serif;
+    --ft-image-style: font-family: "Rubik", sans-serif;
+}
+
+.intro-nav{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+   
+}
+
+.bd-design{
+    border-color: var(--bd-color);
+}
+
+.bg-style{
+    background-color: var(--bk-color);
+    font-family: var(--ft-style);
+}
+
+.card-style{
+    background-color: #dbd9e9;
+}
+
+.ft-image{
+    font-family: var(--ft-image-style);
+}
+
+.on{
+    display: flex;
+    background-color: var(--bd-color);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+footer{
+    background-color: var(--bd-color);
+}
+
+footer .container-footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+footer .container-footer ul{
+    width: 25%;
+    list-style: none;
+}
+
+footer .container-footer h3{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+footer .container-footer ul >p{
+    margin-bottom: 40px;
+}
+
+footer .container-footer li{
+    margin: 10px 0;
+}
+
+footer .container-footer a{
+    color: #dbd9e9;
+    text-decoration: none;
+}
+
+.btn-color{
+    background-color: var(--bd-color);
+    margin: auto;
+}
+
+
+.borda{
+    border: 5px solid var(--bd-color);
+    border-radius: 5vh;
+}
+
+.botao{
+    font-weight: bolder;
+    color: black;
+    font-size: 25x;
+}
+
+.container-center{
+    display: flex;
+    justify-content: center;
+}
